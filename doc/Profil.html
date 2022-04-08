@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Profil - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/navigation.js" defer></script>
+<script src="./js/search.js" defer></script>
+<script src="./js/search_index.js" defer></script>
+<script src="./js/searcher.js" defer></script>
+<script src="./js/darkfish.js" defer></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+<div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  <p class="link"><a href="Object.html">Object</a>
+</div>
+
+    
+<div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+    <li><a class="include" href="Difficulte.html">Difficulte</a>
+  </ul>
+</div>
+
+    
+    
+<!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    <li ><a href="#method-c-creer">::creer</a>
+    <li ><a href="#method-c-new">::new</a>
+    <li ><a href="#method-i-decrementeId">#decrementeId</a>
+    <li ><a href="#method-i-getScore">#getScore</a>
+    <li ><a href="#method-i-getScores">#getScores</a>
+    <li ><a href="#method-i-resetScore">#resetScore</a>
+    <li ><a href="#method-i-setScore">#setScore</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Profil">
+  <h1 id="class-Profil" class="class">
+    class Profil
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  <section id="5Buntitled-5D" class="documentation-section">
+
+
+
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      <div id="attribute-i-autoCompletion" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">autoCompletion</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        <p>Coding assistant</p>
+        </div>
+      </div>
+      <div id="attribute-i-id" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">id</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-name" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">name</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-theme" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">theme</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        <p>Coding assistant</p>
+        </div>
+      </div>
+    </section>
+
+
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+      <div id="method-c-creer" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">creer</span><span
+            class="method-args">(name,id)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode de classe creer permet d&#39;appeler la méthode new et de rendre cette dernière inutilisable dans le but de rendre le code plus parlant</p>
+
+          <div class="method-source-code" id="creer-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Profil</span>.<span class="ruby-identifier ruby-title">creer</span>(<span class="ruby-identifier">name</span>,<span class="ruby-identifier">id</span>)
+  <span class="ruby-identifier">new</span>(<span class="ruby-identifier">name</span>,<span class="ruby-identifier">id</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-c-new" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(name,id)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode initialize permet de définir les variables d&#39;instances</p>
+
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 23</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">name</span>,<span class="ruby-identifier">id</span>)
+  <span class="ruby-ivar">@name</span> = <span class="ruby-identifier">name</span>
+  <span class="ruby-ivar">@id</span> = <span class="ruby-identifier">id</span>
+  <span class="ruby-ivar">@scores</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">3</span>) {<span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">15</span>)}
+  <span class="ruby-ivar">@theme</span> = <span class="ruby-value">0</span>
+  <span class="ruby-ivar">@autoCompletion</span> = <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+      <div id="method-i-decrementeId" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">decrementeId</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Lorsqu&#39;on supprime un id il faut décrémenter tous les id suivant, cette méthode réalise cette tache</p>
+
+          <div class="method-source-code" id="decrementeId-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 60</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">decrementeId</span>()
+  <span class="ruby-ivar">@id</span><span class="ruby-operator">-=</span><span class="ruby-value">1</span>
+  <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-getScore" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">getScore</span><span
+            class="method-args">(difficulte,grille)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode getScore permet de récuper 1 score en fonction de la difficulte et de la grille passée en paramètre</p>
+
+          <div class="method-source-code" id="getScore-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 47</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">getScore</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">grille</span>)
+  <span class="ruby-comment">#On récupère l&#39;entier correspondant à la difficulte</span>
+  <span class="ruby-identifier">difficulte</span> = <span class="ruby-identifier">to_i</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-value">0</span>,<span class="ruby-value">1</span>,<span class="ruby-value">2</span>)
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">score</span> = <span class="ruby-ivar">@scores</span>[<span class="ruby-identifier">difficulte</span>][<span class="ruby-identifier">grille</span>]
+  <span class="ruby-keyword">rescue</span>
+    <span class="ruby-comment">#Si il n&#39;y a pas de score on renvoie nil</span>
+    <span class="ruby-identifier">score</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">score</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-getScores" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">getScores</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode getScores permet de renvoyer le total des scores du profil</p>
+
+          <div class="method-source-code" id="getScores-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 79</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">getScores</span>()
+  <span class="ruby-identifier">score</span> = <span class="ruby-value">0</span>
+  <span class="ruby-ivar">@scores</span>.<span class="ruby-identifier">each</span>{ <span class="ruby-operator">|</span><span class="ruby-identifier">difficulte</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">difficulte</span>.<span class="ruby-identifier">each</span>{ <span class="ruby-operator">|</span><span class="ruby-identifier">grilles</span><span class="ruby-operator">|</span>
+      <span class="ruby-keyword">begin</span>
+        <span class="ruby-identifier">score</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">grilles</span>[<span class="ruby-value">0</span>]
+      <span class="ruby-keyword">rescue</span>
+      <span class="ruby-keyword">end</span>
+    }
+  }
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">score</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-resetScore" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">resetScore</span><span
+            class="method-args">(difficulte,grille)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode permet de reinitialiser le score d&#39;une grille de difficulté x</p>
+
+          <div class="method-source-code" id="resetScore-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 66</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">resetScore</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">grille</span>)
+  <span class="ruby-comment">#On récupère l&#39;entier correspondant à la difficulte</span>
+  <span class="ruby-identifier">difficulte</span>=<span class="ruby-identifier">to_i</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-value">0</span>,<span class="ruby-value">1</span>,<span class="ruby-value">2</span>)
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-ivar">@scores</span>[<span class="ruby-identifier">difficulte</span>][<span class="ruby-identifier">grille</span>]=<span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">rescue</span>
+    <span class="ruby-comment">#Si on arrive ici c&#39;est qu&#39;on a pas initialisé les scores, c&#39;est donc un gros problème</span>
+    <span class="ruby-comment">#on doit faire remonter l&#39;exception</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ProfilScoreError</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-setScore" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">setScore</span><span
+            class="method-args">(difficulte,grille,score,temps)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode setScore permet d&#39;affecter un score à un profil On associe un score et un temps à une grille y de difficulté x</p>
+
+          <div class="method-source-code" id="setScore-source">
+            <pre><span class="ruby-comment"># File src/Profils/Profil.rb, line 37</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">setScore</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">grille</span>,<span class="ruby-identifier">score</span>,<span class="ruby-identifier">temps</span>)
+  <span class="ruby-comment">#On récupère l&#39;entier correspondant à la difficulte</span>
+  <span class="ruby-identifier">difficulte</span> = <span class="ruby-identifier">to_i</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-value">0</span>,<span class="ruby-value">1</span>,<span class="ruby-value">2</span>)
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-ivar">@scores</span>[<span class="ruby-identifier">difficulte</span>][<span class="ruby-identifier">grille</span>]=[<span class="ruby-identifier">score</span>,<span class="ruby-identifier">temps</span>]
+  <span class="ruby-keyword">rescue</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.3.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

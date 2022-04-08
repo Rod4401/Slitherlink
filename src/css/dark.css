@@ -1,0 +1,63 @@
+/***********BOUTONS***********/
+
+button {
+  color: #FFFFFF;
+  background-image: none;
+  background-color: #22222d;
+  border: solid;
+  border-color: #FFFFFF;
+}
+
+button:hover {
+  background-image: none;
+  background-color: gray;
+}
+
+button:hover label {
+  color: white;
+}
+
+button:active {
+  background-image: none;
+  background-color: gray;
+}
+
+button:active label {
+  color: white;
+}
+
+/***********LABELS***********/
+
+window label{
+  font-size: 125%;
+  color: white;
+  font-weight: normal;
+}
+
+#titre {
+  color: black;
+  font-size: 200%;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.grille {
+  color: black;
+}
+
+/***********COMBOS***********/
+
+.combo {
+  color: black;
+}
+.popup{
+  background-color: black;
+}
+window {
+  background-image: none;
+  background-color: #333344;
+}
+
+grid {
+  padding: 3px;
+}

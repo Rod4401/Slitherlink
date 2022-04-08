@@ -1,0 +1,16 @@
+--- &1 !ruby/object:Partie
+gestionnairePartie: 
+numero: 9
+difficulte: normales
+compteurTemps: !ruby/object:Temps
+  jours: 0
+  heures: 0
+  minutes: 49
+  secondes: 22
+  pause: false
+  continuer: false
+autoCompletion: true
+aide: !ruby/object:Aide
+  partie: *1
+nbCoup: 28
+plateau: 

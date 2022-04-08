@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>TutoImage.glade - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+  var index_rel_prefix = "../../";
+</script>
+
+<script src="../../js/navigation.js" defer></script>
+<script src="../../js/search.js" defer></script>
+<script src="../../js/search_index.js" defer></script>
+<script src="../../js/searcher.js" defer></script>
+<script src="../../js/darkfish.js" defer></script>
+
+<link href="../../css/fonts.css" rel="stylesheet">
+<link href="../../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../table_of_contents.html#pages">Pages</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    
+<div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+    <li><a href="../../src/Error/README_md.html">README</a>
+    <li><a href="../../src/FileGlade/#Options_glade#.html">#Options.glade#</a>
+    <li><a href="../../src/FileGlade/A_Propos_glade.html">A_Propos.glade</a>
+    <li><a href="../../src/FileGlade/Accueil_glade.html">Accueil.glade</a>
+    <li><a href="../../src/FileGlade/Campagne_glade.html">Campagne.glade</a>
+    <li><a href="../../src/FileGlade/Jouer_glade.html">Jouer.glade</a>
+    <li><a href="../../src/FileGlade/Options_glade.html">Options.glade</a>
+    <li><a href="../../src/FileGlade/Partie_glade.html">Partie.glade</a>
+    <li><a href="../../src/FileGlade/PopupVerification_glade.html">PopupVerification.glade</a>
+    <li><a href="../../src/FileGlade/Profils_glade.html">Profils.glade</a>
+    <li><a href="../../src/FileGlade/README_md.html">README</a>
+    <li><a href="../../src/FileGlade/Regles_glade.html">Regles.glade</a>
+    <li><a href="../../src/FileGlade/Regles_Techniques_glade.html">Regles_Techniques.glade</a>
+    <li><a href="../../src/FileGlade/Techniques_glade.html">Techniques.glade</a>
+    <li><a href="../../src/FileGlade/TutoImage_glade.html">TutoImage.glade</a>
+    <li><a href="../../src/FileGlade/Tutoriel_glade.html">Tutoriel.glade</a>
+    <li><a href="../../src/Image/README_md.html">README</a>
+    <li><a href="../../src/Menus/README_md.html">README</a>
+    <li><a href="../../src/Modules/README_md.html">README</a>
+    <li><a href="../../src/Partie/README_md.html">README</a>
+    <li><a href="../../src/Popup/README_md.html">README</a>
+    <li><a href="../../src/Profils/README_md.html">README</a>
+    <li><a href="../../src/README_md.html">README</a>
+    <li><a href="../../src/Saves/README_md.html">README</a>
+    <li><a href="../../src/Saves/difficiles/0_default.html">0.default</a>
+    <li><a href="../../src/Saves/faciles/0_default.html">0.default</a>
+    <li><a href="../../src/Saves/faciles/Invité_0_save.html">Invité.0.save</a>
+    <li><a href="../../src/Saves/normales/0_default.html">0.default</a>
+    <li><a href="../../src/Saves/quickSaves/Invité_faciles_0_0_save.html">Invité.faciles.0.0.save</a>
+    <li><a href="../../src/css/CasePartie_css.html">CasePartie.css</a>
+    <li><a href="../../src/css/CoinPartie_css.html">CoinPartie.css</a>
+    <li><a href="../../src/css/MenuPartie_css.html">MenuPartie.css</a>
+    <li><a href="../../src/css/MurPartie_css.html">MurPartie.css</a>
+    <li><a href="../../src/css/README_md.html">README</a>
+    <li><a href="../../src/css/dark_css.html">dark.css</a>
+    <li><a href="../../src/css/white_css.html">white.css</a>
+    <li><a href="../../src/sounds/ASUPR_rien.html">ASUPR.rien</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page src/FileGlade/TutoImage.glade">
+
+<p>&lt;?xml version=“1.0” encoding=“UTF-8”?&gt; &lt;!– Generated with glade 3.22.2 –&gt; &lt;interface&gt;</p>
+
+<pre>&lt;requires lib=&quot;gtk+&quot; version=&quot;3.20&quot;/&gt;
+&lt;object class=&quot;GtkScrolledWindow&quot; id=&quot;grid&quot;&gt;
+  &lt;property name=&quot;width_request&quot;&gt;700&lt;/property&gt;
+  &lt;property name=&quot;height_request&quot;&gt;800&lt;/property&gt;
+  &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+  &lt;property name=&quot;can_focus&quot;&gt;True&lt;/property&gt;
+  &lt;property name=&quot;halign&quot;&gt;center&lt;/property&gt;
+  &lt;property name=&quot;valign&quot;&gt;center&lt;/property&gt;
+  &lt;property name=&quot;shadow_type&quot;&gt;in&lt;/property&gt;
+  &lt;child&gt;
+    &lt;object class=&quot;GtkViewport&quot;&gt;
+      &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+      &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+      &lt;property name=&quot;valign&quot;&gt;center&lt;/property&gt;
+      &lt;child&gt;
+        &lt;object class=&quot;GtkGrid&quot;&gt;
+          &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+          &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+          &lt;property name=&quot;halign&quot;&gt;center&lt;/property&gt;
+          &lt;child&gt;
+            &lt;object class=&quot;GtkGrid&quot;&gt;
+              &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+              &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+              &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+              &lt;child&gt;
+                &lt;object class=&quot;GtkImage&quot;&gt;
+                  &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;pixbuf&quot;&gt;../image/imgBarre.png&lt;/property&gt;
+                &lt;/object&gt;
+                &lt;packing&gt;
+                  &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+                  &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+                &lt;/packing&gt;
+              &lt;/child&gt;
+              &lt;child&gt;
+                &lt;object class=&quot;GtkLabel&quot;&gt;
+                  &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+                &lt;/object&gt;
+                &lt;packing&gt;
+                  &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+                  &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+                &lt;/packing&gt;
+              &lt;/child&gt;
+              &lt;child&gt;
+                &lt;object class=&quot;GtkImage&quot;&gt;
+                  &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;pixbuf&quot;&gt;../image/imgVide.png&lt;/property&gt;
+                &lt;/object&gt;
+                &lt;packing&gt;
+                  &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+                  &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+                &lt;/packing&gt;
+              &lt;/child&gt;
+            &lt;/object&gt;
+            &lt;packing&gt;
+              &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+              &lt;property name=&quot;top_attach&quot;&gt;4&lt;/property&gt;
+            &lt;/packing&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;object class=&quot;GtkLabel&quot; id=&quot;titreTutoImage&quot;&gt;
+              &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+              &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+              &lt;property name=&quot;margin_top&quot;&gt;4&lt;/property&gt;
+              &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Tutoriel Imagé&lt;/property&gt;
+              &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+              &lt;attributes&gt;
+                &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 24&quot;/&gt;
+              &lt;/attributes&gt;
+            &lt;/object&gt;
+            &lt;packing&gt;
+              &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+              &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+            &lt;/packing&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;object class=&quot;GtkLabel&quot; id=&quot;autour0&quot;&gt;
+              &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+              &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+              &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Cliquez sur l&#39;espace entre deux points pour</pre>
+
+<p>former une barre :&lt;/property&gt;</p>
+
+<pre>    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;3&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Cliquez sur une barre pour former une croix :&lt;/property&gt;
+    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;6&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Cliquez sur une croix pour l&#39;effacer :&lt;/property&gt;
+    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;9&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgBarre.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgCroix.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;7&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgCroix.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgVide.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;10&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkSeparator&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;width&quot;&gt;3&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;13&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgPrec1.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgPrec2.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;16&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgReinit1.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgReinit2.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;19&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;22&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgCheck2.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgCheck3.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;25&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;stock&quot;&gt;gtk-missing-image&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;stock&quot;&gt;gtk-missing-image&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;28&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;stock&quot;&gt;gtk-missing-image&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;stock&quot;&gt;gtk-missing-image&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;31&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;34&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;37&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;➡&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;40&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;43&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;46&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;49&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;halign&quot;&gt;start&lt;/property&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkButton&quot; id=&quot;btnRetour&quot;&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Retour&lt;/property&gt;
+        &lt;property name=&quot;height_request&quot;&gt;70&lt;/property&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;receives_default&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;margin_left&quot;&gt;10&lt;/property&gt;
+        &lt;property name=&quot;margin_right&quot;&gt;10&lt;/property&gt;
+        &lt;property name=&quot;margin_start&quot;&gt;10&lt;/property&gt;
+        &lt;property name=&quot;margin_end&quot;&gt;10&lt;/property&gt;
+        &lt;property name=&quot;margin_top&quot;&gt;10&lt;/property&gt;
+        &lt;property name=&quot;margin_bottom&quot;&gt;10&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;53&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Commandes&lt;/property&gt;
+    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+      &lt;attribute name=&quot;weight&quot; value=&quot;bold&quot;/&gt;
+      &lt;attribute name=&quot;scale&quot; value=&quot;2&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;1&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;2&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;5&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;8&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;11&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Boutons&lt;/property&gt;
+    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;weight&quot; value=&quot;bold&quot;/&gt;
+      &lt;attribute name=&quot;scale&quot; value=&quot;2&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;12&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;14&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;17&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;20&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;23&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;26&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;29&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkGrid&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;column_homogeneous&quot;&gt;True&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkSeparator&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;left_attach&quot;&gt;1&lt;/property&gt;
+        &lt;property name=&quot;top_attach&quot;&gt;0&lt;/property&gt;
+        &lt;property name=&quot;width&quot;&gt;2&lt;/property&gt;
+        &lt;property name=&quot;height&quot;&gt;2&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;placeholder/&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;52&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;32&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Proposition de techniques :</pre>
+
+<p>Affiche des techniques actuellement applicables à la grille</p>
+
+<p>Entraine un malus&lt;/property&gt;</p>
+
+<pre>    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;33&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkLabel&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Auto-complétion :</pre>
+
+<p>Complète automatiquement la grille</p>
+
+<p>Entraine un malus&lt;/property&gt;</p>
+
+<pre>    &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+    &lt;attributes&gt;
+      &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+    &lt;/attributes&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;36&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;38&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;35&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Revenir au coup précedent :&lt;/property&gt;
+        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/precedent.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;15&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Réinitialiser la grille :&lt;/property&gt;
+        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/reset.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;18&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Enregistrer un checkpoint :</pre>
+
+<p>Sauvegarde l&#39;état actuel de la grille&lt;/property&gt;</p>
+
+<pre>        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/enregistrer.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/imgCheck1.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;2&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;21&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Revenir au checkpoint :</pre>
+
+<p>Charge l&#39;état enregistré&lt;/property&gt;</p>
+
+<pre>        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/load.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;24&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Check :</pre>
+
+<p>Vérification de la grille</p>
+
+<p>Entraine un malus&lt;/property&gt;</p>
+
+<pre>        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/valider.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;30&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Règles et Techniques :</pre>
+
+<p>Affiche d&#39;une pop-pup descriptive&lt;/property&gt;</p>
+
+<pre>        &lt;property name=&quot;justify&quot;&gt;center&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/regles.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;27&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Paramètres :&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkImage&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/parametres.png&lt;/property&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;39&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkSeparator&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+  &lt;/object&gt;
+  &lt;packing&gt;
+    &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+    &lt;property name=&quot;top_attach&quot;&gt;41&lt;/property&gt;
+  &lt;/packing&gt;
+&lt;/child&gt;
+&lt;child&gt;
+  &lt;object class=&quot;GtkBox&quot;&gt;
+    &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+    &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+    &lt;property name=&quot;orientation&quot;&gt;vertical&lt;/property&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Quitter :&lt;/property&gt;
+        &lt;attributes&gt;
+          &lt;attribute name=&quot;font-desc&quot; value=&quot;Sans 10&quot;/&gt;
+        &lt;/attributes&gt;
+      &lt;/object&gt;
+      &lt;packing&gt;
+        &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;position&quot;&gt;0&lt;/property&gt;
+      &lt;/packing&gt;
+    &lt;/child&gt;
+    &lt;child&gt;
+      &lt;object class=&quot;GtkLabel&quot;&gt;
+        &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+        &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+        &lt;property name=&quot;label&quot; translatable=&quot;yes&quot;&gt;Renvoi au menu d&#39;accueil</pre>
+
+<p>&lt;/property&gt;</p>
+
+<pre>                &lt;/object&gt;
+                &lt;packing&gt;
+                  &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;position&quot;&gt;1&lt;/property&gt;
+                &lt;/packing&gt;
+              &lt;/child&gt;
+              &lt;child&gt;
+                &lt;object class=&quot;GtkImage&quot;&gt;
+                  &lt;property name=&quot;visible&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;can_focus&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;pixbuf&quot;&gt;../image/btn/quitter.png&lt;/property&gt;
+                &lt;/object&gt;
+                &lt;packing&gt;
+                  &lt;property name=&quot;expand&quot;&gt;False&lt;/property&gt;
+                  &lt;property name=&quot;fill&quot;&gt;True&lt;/property&gt;
+                  &lt;property name=&quot;position&quot;&gt;2&lt;/property&gt;
+                &lt;/packing&gt;
+              &lt;/child&gt;
+            &lt;/object&gt;
+            &lt;packing&gt;
+              &lt;property name=&quot;left_attach&quot;&gt;0&lt;/property&gt;
+              &lt;property name=&quot;top_attach&quot;&gt;42&lt;/property&gt;
+            &lt;/packing&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+          &lt;child&gt;
+            &lt;placeholder/&gt;
+          &lt;/child&gt;
+        &lt;/object&gt;
+      &lt;/child&gt;
+    &lt;/object&gt;
+  &lt;/child&gt;
+&lt;/object&gt;</pre>
+
+<p>&lt;/interface&gt;</p>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.3.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

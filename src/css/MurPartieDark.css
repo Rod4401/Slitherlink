@@ -1,0 +1,22 @@
+@import url("./MurPartie.css");
+button{
+	color: white;
+	background-color: gray;
+}
+#rien{
+	color: white;
+	background-color: gray;
+}
+
+#check{
+	color: black;
+	background-color: black;
+}
+
+button:hover#rien {
+	background-color: #BAB0BA;
+}
+
+button:hover#croix {
+	background-color:	#C65953;
+}

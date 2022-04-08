@@ -1,0 +1,32 @@
+button {
+	box-shadow: none;
+	border: none;
+	border-radius: 0px;
+}
+#rien {
+	opacity:1;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+}
+#check {
+	opacity:1;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+}
+
+#croix {
+	opacity:1;
+	box-shadow: none;
+	color: red;
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+	border: none;
+	border-radius: 0px;
+}
+button:hover#check {
+	opacity:0.5;
+}

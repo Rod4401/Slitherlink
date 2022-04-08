@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class GestionnairePartie - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/navigation.js" defer></script>
+<script src="./js/search.js" defer></script>
+<script src="./js/search_index.js" defer></script>
+<script src="./js/searcher.js" defer></script>
+<script src="./js/darkfish.js" defer></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+<div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  <p class="link"><a href="Menu.html">Menu</a>
+</div>
+
+    
+<div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+    <li><a class="include" href="Difficulte.html">Difficulte</a>
+  </ul>
+</div>
+
+    
+    
+<!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    <li ><a href="#method-c-creer">::creer</a>
+    <li class="calls-super" ><a href="#method-c-new">::new</a>
+    <li ><a href="#method-c-resetScore">::resetScore</a>
+    <li ><a href="#method-i-actualiseAffichage">#actualiseAffichage</a>
+    <li ><a href="#method-i-afficheTemps">#afficheTemps</a>
+    <li ><a href="#method-i-afficherCoups">#afficherCoups</a>
+    <li ><a href="#method-i-arreterPartie">#arreterPartie</a>
+    <li ><a href="#method-i-chargerCases">#chargerCases</a>
+    <li ><a href="#method-i-chargerPartie">#chargerPartie</a>
+    <li ><a href="#method-i-getButton">#getButton</a>
+    <li ><a href="#method-i-sauvegardePartie">#sauvegardePartie</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-GestionnairePartie">
+  <h1 id="class-GestionnairePartie" class="class">
+    class GestionnairePartie
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  <section id="5Buntitled-5D" class="documentation-section">
+
+
+
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      <div id="attribute-i-gestionnaire" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">gestionnaire</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        <p>On rend la méthode de classe new private</p>
+        </div>
+      </div>
+      <div id="attribute-i-partie" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">partie</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+    </section>
+
+
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+      <div id="method-c-creer" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">creer</span><span
+            class="method-args">(gestionnaire,difficulte,numeroPartie)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>La méthode de classe creer permet d&#39;appeler la méthode new et de rendre cette dernière inutilisable dans le but de rendre le code plus parlant</p>
+
+          <div class="method-source-code" id="creer-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 42</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">GestionnairePartie</span>.<span class="ruby-identifier ruby-title">creer</span>(<span class="ruby-identifier">gestionnaire</span>,<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">numeroPartie</span>)
+  <span class="ruby-identifier">new</span>(<span class="ruby-identifier">gestionnaire</span>,<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">numeroPartie</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-c-new" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(gestionnaire,difficulte,numeroPartie)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode initialize permet de charger une partie à l&#39;écran en créant tous les évenements aux différents widgets</p>
+            <div class="method-calls-super">
+              Calls superclass method
+              <a href="Menu.html#method-c-new"><code>Menu::new</code></a>
+            </div>
+
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">gestionnaire</span>,<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">numeroPartie</span>)
+  <span class="ruby-ivar">@difficulte</span> = <span class="ruby-identifier">difficulte</span>
+  <span class="ruby-ivar">@numeroPartie</span> = <span class="ruby-identifier">numeroPartie</span>
+
+  <span class="ruby-comment">#On appèle le builder avec le fichier correspondant</span>
+  <span class="ruby-ivar">@builder</span> = <span class="ruby-constant">Builder</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;Partie.glade&quot;</span>)
+
+  <span class="ruby-comment">#On appèle la méthode initialize de la superClasse</span>
+  <span class="ruby-keyword">super</span>(<span class="ruby-identifier">gestionnaire</span>)
+
+  <span class="ruby-comment">#On attache au gestionnaire de Menu, le gestionnaire de Partie pour pouvoir stopper une partie si on clique sur la croix de la fenetre</span>
+  <span class="ruby-ivar">@gestionnaire</span>.<span class="ruby-identifier">setGestioPartie</span>(<span class="ruby-keyword">self</span>)
+
+  <span class="ruby-comment">#On demande au builder de générer la grille en fonction de la difficulté</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">genererGrille</span>(<span class="ruby-identifier">to_i</span>(<span class="ruby-ivar">@difficulte</span>,<span class="ruby-value">5</span>,<span class="ruby-value">7</span>,<span class="ruby-value">10</span>),<span class="ruby-identifier">to_i</span>(<span class="ruby-ivar">@difficulte</span>,<span class="ruby-value">120</span>,<span class="ruby-value">70</span>,<span class="ruby-value">50</span>))
+
+  <span class="ruby-comment">#On affecte un comportement à l&#39;évenement clicked pour le boutton @btnMenuQuitter</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">arreterPartie</span>()
+  }
+
+  <span class="ruby-comment">#Affectation des bouttons de quicksave</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">savePlateau</span>(<span class="ruby-value">1</span>)
+  }
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">loadPlateau</span>(<span class="ruby-value">1</span>)
+  }
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">savePlateau</span>(<span class="ruby-value">2</span>)
+  }
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">loadPlateau</span>(<span class="ruby-value">2</span>)
+  }
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">savePlateau</span>(<span class="ruby-value">3</span>)
+  }
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>) {
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">loadPlateau</span>(<span class="ruby-value">3</span>)
+  }
+
+  <span class="ruby-comment">#On défini à 700 par 700 la taille de la grille du jeu</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@grilleJeu&quot;</span>).<span class="ruby-identifier">set_size_request</span>(<span class="ruby-value">700</span>,<span class="ruby-value">700</span>)
+
+  <span class="ruby-comment">#On affecte un comportement à l&#39;évenement clicked pour le boutton @btnMenuPrec</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){
+    <span class="ruby-comment">#Revenir au coup précédent</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">dejouerCoup</span>
+    <span class="ruby-identifier">afficherCoups</span>()
+  }
+
+  <span class="ruby-comment">#On affecte un comportement à l&#39;évenement clicked pour le boutton @btnMenuRestart</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){
+    <span class="ruby-comment">#Remise à 0 du plateau</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">raz</span>
+    <span class="ruby-identifier">afficherCoups</span>()
+  }
+
+  <span class="ruby-comment">#Affectation des images correspondantes aux différents bouttons de l&#39;interface d&#39;une partie</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/quitter.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/precedent.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/aide.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/reset.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/regles.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/valider.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/parametres.png&quot;</span>)
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/enregistrer.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/enregistrer.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/enregistrer.png&quot;</span>)
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/load.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/load.png&quot;</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">image</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Image</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:file</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-constant">DIR_IMG</span><span class="ruby-string">+&quot;btn/load.png&quot;</span>)
+
+  <span class="ruby-identifier">css_menu</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">CssProvider</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">css_menu</span>.<span class="ruby-identifier">load</span>(<span class="ruby-value">path:</span> <span class="ruby-constant">DIR_CSS</span><span class="ruby-string">+&quot;MenuPartie.css&quot;</span>)
+
+  <span class="ruby-comment">#A tous les bouttons de l&#39;interface de la partie on associe le css (css_menu)</span>
+  <span class="ruby-comment">#On défini un nom selon l&#39;événement pour donner un effet de clique sur le boutton (cf : MenuPartie.css)</span>
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuQuitter&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuPrec&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuAide&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRestart&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuRegles&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuCheck&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnMenuParametres&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave1&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave2&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveSave3&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad1&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad2&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">style_context</span>.<span class="ruby-identifier">add_provider</span>(<span class="ruby-identifier">css_menu</span>, <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">StyleProvider</span><span class="ruby-operator">::</span><span class="ruby-constant">PRIORITY_USER</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;pressed&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat1&quot;</span>)}
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){<span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@btnQuickSaveLoad3&quot;</span>).<span class="ruby-identifier">set_name</span>(<span class="ruby-string">&quot;etat0&quot;</span>)}
+
+  <span class="ruby-comment">#On scanne tous les boutons (Gtk::Button) pour leur associer le comportement (jouer()) au mur qu&#39;il lui est destiné</span>
+  <span class="ruby-comment"># ex : le mur en 0-1 est relié au bouton (Gtk::Button) 0-1</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-comment">#On récupère la taille du plateau (le nombre de cases)</span>
+    <span class="ruby-identifier">taille</span> = <span class="ruby-identifier">to_i</span>(<span class="ruby-ivar">@difficulte</span>,<span class="ruby-value">5</span>,<span class="ruby-value">7</span>,<span class="ruby-value">10</span>)
+    <span class="ruby-value">0</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">taille</span><span class="ruby-operator">*</span><span class="ruby-value">2</span>){ <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span>
+      <span class="ruby-value">0</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">taille</span><span class="ruby-operator">*</span><span class="ruby-value">2</span>){ <span class="ruby-operator">|</span><span class="ruby-identifier">y</span><span class="ruby-operator">|</span>
+        <span class="ruby-comment">#Si ce n&#39;est pas un mur on passe au suivant</span>
+        <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> ((<span class="ruby-identifier">x</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">y</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>) <span class="ruby-operator">||</span> (<span class="ruby-identifier">x</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">y</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>) )
+        <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-node">&quot;@btnMur_#{x}_#{y}&quot;</span>).<span class="ruby-identifier">signal_connect</span>(<span class="ruby-string">&#39;clicked&#39;</span>){
+          <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">jouerCoup</span>(<span class="ruby-identifier">x</span>,<span class="ruby-identifier">y</span>)
+          <span class="ruby-identifier">afficherCoups</span>()
+        }
+      }
+    }
+  <span class="ruby-keyword">rescue</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-identifier">e</span>
+    <span class="ruby-comment">#Si on a une erreur</span>
+    <span class="ruby-comment">#Ici la seule erreur c&#39;est qu&#39;un bouton n&#39;a pas été généré</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment">#Charger / Creer Partie</span>
+  <span class="ruby-identifier">chargerPartie</span>()
+  <span class="ruby-identifier">actualiseAffichage</span>()
+  <span class="ruby-comment">#puts &quot;démarage de la partie&quot;</span>
+  <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">run</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-c-resetScore" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">resetScore</span><span
+            class="method-args">(difficulte,numeroPartie,name)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode de classe qui permet de reinitialiser les scores d&#39;un profil</p>
+
+          <div class="method-source-code" id="resetScore-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 24</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">GestionnairePartie</span>.<span class="ruby-identifier ruby-title">resetScore</span>(<span class="ruby-identifier">difficulte</span>,<span class="ruby-identifier">numeroPartie</span>,<span class="ruby-identifier">name</span>)
+  <span class="ruby-comment">#Effacement de la sauvegarde de la partie</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-constant">File</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-constant">DIR_SAVE</span><span class="ruby-node">+&quot;#{difficulte}/#{name}.#{numeroPartie}.save&quot;</span>)
+  <span class="ruby-keyword">rescue</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;File inexistante&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment">#Effacement des quicksaves de la partie</span>
+  <span class="ruby-value">0</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-value">3</span>){<span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-constant">File</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-constant">DIR_QUICKSAVE</span><span class="ruby-node">+&quot;#{name}.#{difficulte}.#{numeroPartie}.#{i}.save&quot;</span>)
+    <span class="ruby-keyword">rescue</span>
+      <span class="ruby-comment">#puts &quot;File inexistante&quot;</span>
+    <span class="ruby-keyword">end</span>
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+      <div id="method-i-actualiseAffichage" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">actualiseAffichage</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui envoie le message affiche toi à tous les murs Ici elle ne fait que passer le message à la classe compétente</p>
+
+          <div class="method-source-code" id="actualiseAffichage-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 304</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">actualiseAffichage</span>()
+  <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">actualiseAffichage</span>()
+  <span class="ruby-identifier">afficherCoups</span>()
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-afficheTemps" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">afficheTemps</span><span
+            class="method-args">(s,m,h,j)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui affiche le temps dans le label correspodant Cette méthode est appelée par le compteur de temps de la partie</p>
+
+          <div class="method-source-code" id="afficheTemps-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 311</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">afficheTemps</span>(<span class="ruby-identifier">s</span>,<span class="ruby-identifier">m</span>,<span class="ruby-identifier">h</span>,<span class="ruby-identifier">j</span>)
+  <span class="ruby-identifier">chaine</span> = <span class="ruby-string">&quot;&quot;</span>
+  <span class="ruby-comment">#Ajoue des jours à la chaine</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">j</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">chaine</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">j</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;j &quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment">#Ajoue des heures à la chaine</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">h</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">chaine</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">h</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;h &quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment">#Ajoue des minutes à la chaine</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">m</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">chaine</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">m</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;m &quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment">#Ajoue des secondes à la chaine</span>
+  <span class="ruby-identifier">chaine</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-string">&quot;s &quot;</span>
+
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@lblTps&quot;</span>).<span class="ruby-identifier">set_markup</span>(<span class="ruby-identifier">chaine</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-afficherCoups" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">afficherCoups</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui affiche le nombre de coups joués</p>
+
+          <div class="method-source-code" id="afficherCoups-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 335</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">afficherCoups</span>()
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-string">&quot;@lblNbCoup&quot;</span>).<span class="ruby-identifier">set_markup</span>(<span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">getNbCoups</span>.<span class="ruby-identifier">to_s</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-arreterPartie" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">arreterPartie</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode pour mettre fin à la partie</p>
+
+          <div class="method-source-code" id="arreterPartie-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 340</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">arreterPartie</span>()
+  <span class="ruby-comment">#On coupe le compteur de temps de la partie</span>
+  <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">stop</span>()
+  <span class="ruby-comment">#On sauvegarde le score ainsi que le temps du profil actif</span>
+  <span class="ruby-ivar">@gestionnaire</span>.<span class="ruby-identifier">getProfilActif</span>.<span class="ruby-identifier">setScore</span>(<span class="ruby-ivar">@difficulte</span>,<span class="ruby-ivar">@numeroPartie</span>,<span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">calculerScore</span>,<span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">getTemps</span>)
+  <span class="ruby-comment">#on sauvegarde la partie</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">sauvegardePartie</span>()
+  <span class="ruby-comment">#On déconnecte la partie</span>
+  <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">connect</span>(<span class="ruby-keyword">nil</span>)
+  <span class="ruby-comment">#On retourne à l&#39;accueil</span>
+  <span class="ruby-ivar">@gestionnaire</span>.<span class="ruby-identifier">changerMenu</span>(<span class="ruby-constant">Accueil</span>.<span class="ruby-identifier">creer</span>(<span class="ruby-ivar">@gestionnaire</span>))
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-chargerCases" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">chargerCases</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>On affecte les valeurs des cases aux différents widgets (Gtk::Label)</p>
+
+          <div class="method-source-code" id="chargerCases-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 271</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">chargerCases</span>()
+  <span class="ruby-comment">#On récupère la liste des cases</span>
+  <span class="ruby-identifier">liste</span> = <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">getCases</span>()
+  <span class="ruby-comment">#On calcul la taille c&#39;est-à-dire le nombre de case</span>
+  <span class="ruby-identifier">taille</span> = <span class="ruby-identifier">to_i</span>(<span class="ruby-ivar">@difficulte</span>,<span class="ruby-value">5</span>,<span class="ruby-value">7</span>,<span class="ruby-value">10</span>)
+  <span class="ruby-comment">#Un plateau de 2 cases contient 5*5 éléments:</span>
+  <span class="ruby-comment">#X X X X X</span>
+  <span class="ruby-comment">#X C X C X</span>
+  <span class="ruby-comment">#X X X X X</span>
+  <span class="ruby-comment">#X C X C X</span>
+  <span class="ruby-comment">#X X X X X</span>
+  <span class="ruby-comment">#Donc pour n cases on a (n*2+1) par (n*2+1) éléments</span>
+
+  <span class="ruby-value">0</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">taille</span><span class="ruby-operator">*</span><span class="ruby-value">2</span>){<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span>
+    <span class="ruby-value">0</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">taille</span><span class="ruby-operator">*</span><span class="ruby-value">2</span>){<span class="ruby-operator">|</span><span class="ruby-identifier">y</span><span class="ruby-operator">|</span>
+      <span class="ruby-comment">#A moins que ce ne soit pas une cases on next</span>
+      <span class="ruby-keyword">next</span> <span class="ruby-keyword">unless</span> (<span class="ruby-identifier">x</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">y</span><span class="ruby-operator">%</span><span class="ruby-value">2</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>)
+      <span class="ruby-comment">#Ici liste[x][y] est forcément une case</span>
+      <span class="ruby-keyword">if</span>(<span class="ruby-identifier">liste</span>[<span class="ruby-identifier">x</span>][<span class="ruby-identifier">y</span>].<span class="ruby-identifier">numero</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>)
+        <span class="ruby-comment">#Si elle possède un numéro supérieur à 0 (différent de -1)</span>
+        <span class="ruby-comment">#On écrit sa valeur dans le Gtk::Label correspondant</span>
+        <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-node">&quot;@lblCase_#{x}_#{y}&quot;</span>).<span class="ruby-identifier">set_markup</span>(<span class="ruby-identifier">liste</span>[<span class="ruby-identifier">x</span>][<span class="ruby-identifier">y</span>].<span class="ruby-identifier">numero</span>.<span class="ruby-identifier">to_s</span>)
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-comment">#Si elle vaut -1 on écrit rien</span>
+        <span class="ruby-comment">#-1 correspond à une case vide</span>
+        <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-node">&quot;@lblCase_#{x}_#{y}&quot;</span>).<span class="ruby-identifier">set_markup</span>(<span class="ruby-string">&quot;&quot;</span>)
+      <span class="ruby-keyword">end</span>
+    }
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-chargerPartie" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">chargerPartie</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui charge en mémoire la partie Si aucune partie associé à cette partie existe alors on en créer une nouvelle</p>
+
+          <div class="method-source-code" id="chargerPartie-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 221</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">chargerPartie</span>()
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-constant">DIR_SAVE</span><span class="ruby-node">+&quot;#{@difficulte}/#{@gestionnaire.getProfilActif().name()}.#{@numeroPartie}.save&quot;</span>,<span class="ruby-string">&quot;r&quot;</span>)
+    <span class="ruby-identifier">string</span> = <span class="ruby-identifier">file</span>.<span class="ruby-identifier">read</span>()
+    <span class="ruby-ivar">@partie</span> = <span class="ruby-constant">YAML</span>.<span class="ruby-identifier">load</span>(<span class="ruby-identifier">string</span>)
+    <span class="ruby-comment">#On connecte le gestionnaire de partie à la partie</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">connect</span>(<span class="ruby-keyword">self</span>)
+    <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span>
+  <span class="ruby-keyword">rescue</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-identifier">e</span>
+    <span class="ruby-comment">#Si on a pas reussi à load l&#39;ancienne partie</span>
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">e</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">ArgumentError</span>)
+      <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-comment">#puts &quot;echec ouverture =&gt; &quot; + e.message</span>
+    <span class="ruby-comment">#puts &quot;Création partie&quot;</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-ivar">@partie</span> = <span class="ruby-constant">Partie</span>.<span class="ruby-identifier">creer</span>(<span class="ruby-keyword">self</span>,<span class="ruby-ivar">@numeroPartie</span>,<span class="ruby-ivar">@difficulte</span>)
+    <span class="ruby-keyword">rescue</span>
+      <span class="ruby-identifier">raise</span> <span class="ruby-constant">PartieCreationError</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-comment">#puts &quot;Création partie reussi &quot;</span>
+  <span class="ruby-keyword">ensure</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">loadPlateau</span>(<span class="ruby-value">0</span>)
+    <span class="ruby-identifier">chargerCases</span>()
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-getButton" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">getButton</span><span
+            class="method-args">(x,y)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui renvoie le bouton (Gtk::Button) de coordonnée x,y</p>
+
+          <div class="method-source-code" id="getButton-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 213</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">getButton</span>(<span class="ruby-identifier">x</span>,<span class="ruby-identifier">y</span>)
+  <span class="ruby-ivar">@builder</span>.<span class="ruby-identifier">getVar</span>(<span class="ruby-node">&quot;@btnMur_#{x}_#{y}&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-sauvegardePartie" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">sauvegardePartie</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          <p>Méthode qui sauvegarde la partie dans le fichier correspondant</p>
+
+          <div class="method-source-code" id="sauvegardePartie-source">
+            <pre><span class="ruby-comment"># File src/Partie/GestionnairePartie.rb, line 249</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">sauvegardePartie</span>()
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-comment">#Déconnexion du gestionnaire de partie à la partie</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">connect</span>(<span class="ruby-keyword">nil</span>)
+    <span class="ruby-comment">#On déconnecte également le plateau (Pour ne pas le sauvegardé 2 fois)</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">plateau</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-comment">#string = Marshal.dump(@partie)</span>
+    <span class="ruby-identifier">string</span> = <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">to_yaml</span>()
+    <span class="ruby-comment">#On reconnecte le gestionnaire de partie</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">connect</span>(<span class="ruby-keyword">self</span>)
+    <span class="ruby-comment">#On connecte le plateau 0 (courant) à la partie</span>
+    <span class="ruby-ivar">@partie</span>.<span class="ruby-identifier">loadPlateau</span>(<span class="ruby-value">0</span>)
+    <span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-constant">DIR_SAVE</span><span class="ruby-node">+&quot;#{@difficulte}/#{@gestionnaire.getProfilActif().name()}.#{@numeroPartie}.save&quot;</span>,<span class="ruby-string">&quot;w&quot;</span>)
+    <span class="ruby-identifier">file</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">string</span>)
+    <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span>
+  <span class="ruby-keyword">rescue</span> <span class="ruby-operator">=&gt;</span> <span class="ruby-identifier">e</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Partie nulle &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">message</span>
+  <span class="ruby-keyword">end</span>
+
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.3.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

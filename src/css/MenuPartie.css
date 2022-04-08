@@ -1,0 +1,15 @@
+button {
+  box-shadow: none;
+  color: whitesmoke;
+  background-image: none;
+  background-color: whitesmoke;
+  border: none;
+}
+
+button:hover{
+  opacity:0.8;
+}
+
+button:active {
+  opacity:1;
+}

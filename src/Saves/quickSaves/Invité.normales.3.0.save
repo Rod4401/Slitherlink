@@ -1,0 +1,1420 @@
+--- &1 !ruby/object:Plateau
+partie: 
+taille: 8
+listeCoups:
+- !ruby/object:Coup
+  x: 0
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 4
+  y: 9
+- !ruby/object:Coup
+  x: 11
+  y: 12
+- !ruby/object:Coup
+  x: 11
+  y: 14
+- !ruby/object:Coup
+  x: 11
+  y: 16
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 11
+- !ruby/object:Coup
+  x: 2
+  y: 11
+- !ruby/object:Coup
+  x: 2
+  y: 11
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 11
+- !ruby/object:Coup
+  x: 2
+  y: 7
+- !ruby/object:Coup
+  x: 2
+  y: 11
+- !ruby/object:Coup
+  x: 0
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 7
+- !ruby/object:Coup
+  x: 0
+  y: 9
+- !ruby/object:Coup
+  x: 0
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 4
+  y: 9
+- !ruby/object:Coup
+  x: 2
+  y: 9
+- !ruby/object:Coup
+  x: 0
+  y: 7
+- !ruby/object:Coup
+  x: 0
+  y: 7
+listeCases:
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 1
+    y: 1
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 3
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 5
+    numero: 0
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 9
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 11
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 1
+    y: 15
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 3
+    y: 1
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 3
+    numero: 2
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 9
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 11
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 13
+    numero: 2
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 3
+    y: 15
+    numero: 0
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 5
+    y: 1
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 3
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 9
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 11
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 5
+    y: 15
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 7
+    y: 1
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 3
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 9
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 11
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 7
+    y: 15
+    numero: 0
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 9
+    y: 1
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 3
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 9
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 11
+    numero: 2
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 9
+    y: 15
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 11
+    y: 1
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 3
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 7
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 9
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 11
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 11
+    y: 15
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 13
+    y: 1
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 3
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 7
+    numero: 1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 9
+    numero: 2
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 11
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 13
+    y: 15
+    numero: 2
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- - 
+  - !ruby/object:Case
+    x: 15
+    y: 1
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 3
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 5
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 7
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 9
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 11
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 13
+    numero: -1
+    correct: false
+    plateau: *1
+  - 
+  - !ruby/object:Case
+    x: 15
+    y: 15
+    numero: 3
+    correct: false
+    plateau: *1
+  - 
+- - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+listeMurs:
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 2
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 1
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 2
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 1
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 2
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 2
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 1
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 1
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 1
+    etatCorrect: 1
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+- - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+- - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 0
+    btn: 
+  - 
+  - !ruby/object:Mur
+    etat: 0
+    etatCorrect: 1
+    btn: 
+  - 
